@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "2c29dfb5-f515-413c-a42e-ce72f4203b9d",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Scene 1",
+  "symbol": "scene_1",
+  "x": 504,
+  "y": 392,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+  "tilesetId": "",
+  "paletteIds": [
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7",
+    "",
+    "",
+    "default-bg-1",
+    "",
+    "",
+    "",
+    "2801a5c2-3b0b-41b9-90c9-ec2af73d825d"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 1,
+        "frequency": 50,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "5b482f73-839c-49fb-bf3c-16ec31acbf2a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

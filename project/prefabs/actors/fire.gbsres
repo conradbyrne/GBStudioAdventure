@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "2b5641fb-a8e3-4f93-9e2c-bdc44007240a",
+  "name": "Fire",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "c0024ad4-45a0-4c00-bace-b22ed917d880"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2c29dfb5-f515-413c-a42e-ce72f4203b9d",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "8be6a065-88ba-4fb5-86dc-95fa6e2972aa"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
